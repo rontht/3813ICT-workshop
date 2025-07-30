@@ -1,0 +1,23 @@
+{
+  "name": "project_server",
+  "version": "1.0.0",
+  "description": "This is a Test Server.",
+  "homepage": "https://github.com/rontht/week3-workshop#readme",
+  "bugs": {
+    "url": "https://github.com/rontht/week3-workshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rontht/week3-workshop.git"
+  },
+  "license": "ISC",
+  "author": "Thwin Htoo Thant",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

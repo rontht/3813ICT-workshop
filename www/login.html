@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm" action="/login" method="POST">
+                <input type="email" name="email" id="email" placeholder="Email" /><br />
+                <input type="password" name="password" id="password" placeholder="Password" /><br />
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div id="errorMessage" class="hideError">User credentials do not match</div>
+    </div>
+</body>
+
+</html>
